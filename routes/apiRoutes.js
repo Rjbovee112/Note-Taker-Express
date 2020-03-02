@@ -1,4 +1,4 @@
-var data = require("../db/db.json");
+var data = require("../Develop/db/db.json");
 
 module.exports = function (app) {
     app.get("/api/notes", function (req, res) {
@@ -14,7 +14,7 @@ module.exports = function (app) {
         let deleteThis = req.params.id;
         for (let i = 0; i < data.length; i++) {
             if (deleteThis === data[i].id) {
-                datanoteData.splice(i, 1);
+                data.splice(i, 1);
             }
         }
         for (let i = 0; i < data.length; i++) {

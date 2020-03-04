@@ -1,4 +1,5 @@
-var data = require("../Develop/db/db.json");
+var data = require("../db/db.json");
+
 
 module.exports = function (app) {
     app.get("/api/notes", function (req, res) {

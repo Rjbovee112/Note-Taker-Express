@@ -9,4 +9,8 @@
   -express
   -heroku
 
-**
+**This project was hard.  The hardest part was connecting all the apiRoutes and correct routes on each page.  I had Tom and Blaise help me once again to try to get this project finished.
+
+**I liked being able to push it to Heroku and being able to use that function.
+
+**Required GIF is located in the GIF file for review.
